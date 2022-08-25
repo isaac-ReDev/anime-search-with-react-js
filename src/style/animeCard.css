@@ -1,0 +1,21 @@
+
+.animeItem{
+    padding: 20px;
+    width: 50vw;
+    min-height: 12vh;
+    background-color: black;
+    border-radius: 20px 0 20px 0 ;
+
+
+}
+
+ul{
+    list-style: none;
+}
+
+.animeContent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0 0 0  ;
+}

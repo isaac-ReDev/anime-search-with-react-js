@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+.App{
+  display:flex;
+  flex-direction:column ;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  background-color:rgba(94, 92, 92, 0.66);
+  width: 80vw;
+  min-height: 80vh;
+  border-radius: 20px 0 20px 0 ;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 25vh;
+  background-color: gray  ;
+  gap: 20px;
+  border-radius: 20px 0 20px 0 ;
+
+}
+
+.searchContent{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.searchContent input{
+  outline: none;
+  padding: 10px;
+  background-color: rgb(89, 83, 83);
+  border:1px white solid;
+  text-align: center;
+}
+
+.animeList{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  text-align: left;
+  padding: 40px 0 40px 0;
+  width: 60%;
+  background-color: transparent;
+}
